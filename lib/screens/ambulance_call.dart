@@ -11,7 +11,7 @@ class Ambulance extends StatelessWidget {
       body: Center(
           child: ElevatedButton(
         onPressed: () {
-          FlutterPhoneDirectCaller.callNumber('+918590563160');
+          FlutterPhoneDirectCaller.callNumber('Enter the number');
         },
         child: const Text('call'),
       )),
